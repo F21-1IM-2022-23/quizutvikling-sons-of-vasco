@@ -7,7 +7,7 @@ const questions = [
     ]
   },
   {
-    question: "[Skriv spørsmål 1 her]?",
+    question: "[wallah quran]?",
     options: [
       { text: "moren til vasco", correct: true }, //"true" = riktig svar. Skriv det inn i ulike linjer for å endre hvilken knapp som er riktig
       { text: "moren til hitler", correct: false }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
