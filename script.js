@@ -14,17 +14,17 @@ const questions = [
       { text: "143 år", correct: false } //Siste spørsmålslinje skal ikke ha komma.
     ],
     imageUrl: 'hundred years war.webp', //bytt ut med en ny bildeaddresse for hvert spørsmål. 400 og 200 er størrelsen i pixler.
-    altText: 'Beskrivelse av bilde'
+    altText: 'hundreårskrigen'
   },
   {
     question: "Hva heter babyen til Elon Musk?",
     options: [
       { text: "U-AUNM Æ I", correct: false },
-      { text: "X Æ A-Xii", correct: true },
+      { text: "X Æ A 12", correct: true },
       { text: "Æ G NURM", correct: false }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
-    altText: 'Beskrivelse av bilde'
+    imageUrl: 'elonbaby.png',
+    altText: 'elon og elon jr'
   },
   {
     question: "Hva heter keiseren som herskert over Romerike i år r.284-304?",
@@ -34,7 +34,7 @@ const questions = [
       { text: "Diocletian", correct: true }
     ],
     imageUrl: 'iam_os-veHGlVkU4qQ-unsplash (1).jpg',
-    altText: 'Beskrivelse av bilde'
+    altText: 'han karen fra romerike i år 284-304'
   },
   {
     question: "Hvem døde i Halden i 1718?",
@@ -43,8 +43,8 @@ const questions = [
       { text: "Karl XII av Sverige", correct: true },
       { text: "Gustav II Adolf av Sverige", correct: false }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
-    altText: 'Beskrivelse av bilde'
+    imageUrl: 'karlsweden.jpeg',
+    altText: 'den som døde i halden'
   },
   {
     question: "Når ble Nirvana dannet?",
@@ -53,8 +53,8 @@ const questions = [
       { text: "1994", correct: false },
       { text: "1987", correct: true }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
-    altText: 'Beskrivelse av bilde'
+    imageUrl: 'nirvana.jpeg',
+    altText: 'nirvanameddrip'
   },
   // Kopier malen over for å legge til flere spørsmål. Husk å endre antall spørsmål øverst.
 ];
