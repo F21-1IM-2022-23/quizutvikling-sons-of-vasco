@@ -7,7 +7,7 @@ const questions = [
     ]
   },
   {
-    question: "[hvor mange år varte hundreårskrigen]?",
+    question: "Hvor mange år varte Hundreårskrigen?",
     options: [
       { text: "116 år", correct: true }, //"true" = riktig svar. Skriv det inn i ulike linjer for å endre hvilken knapp som er riktig
       { text: "100 år", correct: false }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
@@ -17,7 +17,7 @@ const questions = [
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[hva heter babyen til elon musk?]?",
+    question: "Hva heter babyen til Elon Musk?",
     options: [
       { text: "U-AUNM Æ I", correct: false },
       { text: "X Æ A-Xii", correct: true },
@@ -27,7 +27,7 @@ const questions = [
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "Hva heter keiseren som herskert over Romerike i år r.284-304 ",
+    question: "Hva heter keiseren som herskert over Romerike i år r.284-304?",
     options: [
       { text: "Dionysus", correct: false },
       { text: "Augustus", correct: false }, 
@@ -37,21 +37,21 @@ const questions = [
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål 4 her]?",
+    question: "Hvem døde i Halden i 1718?",
     options: [
-      { text: "Alternativ .", correct: true },
-      { text: "Alternativ ..", correct: false },
-      { text: "Alternativ ...", correct: false }
+      { text: "Napoleon", correct: false },
+      { text: "Karl XII av Sverige", correct: true },
+      { text: "Gustav II Adolf av Sverige", correct: false }
     ],
     imageUrl: 'https://unsplash.it/400/200',
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål 5 her]?",
+    question: "Når ble Nirvana dannet?",
     options: [
-      { text: "Alternativ -", correct: true },
-      { text: "Alternativ +", correct: false },
-      { text: "Alternativ x", correct: false }
+      { text: "1997", correct: false },
+      { text: "1994", correct: false },
+      { text: "1987", correct: true }
     ],
     imageUrl: 'https://unsplash.it/400/200',
     altText: 'Beskrivelse av bilde'
