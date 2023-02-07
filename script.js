@@ -13,7 +13,7 @@ const questions = [
       { text: "100 år", correct: false }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
       { text: "143 år", correct: false } //Siste spørsmålslinje skal ikke ha komma.
     ],
-    imageUrl: 'https://en.wikipedia.org/wiki/Hundred_Years%27_War#/media/File:Hundred_years_war_collage.jpg', //bytt ut med en ny bildeaddresse for hvert spørsmål. 400 og 200 er størrelsen i pixler.
+    imageUrl: 'Hundred_years_war_collage.jpg', //bytt ut med en ny bildeaddresse for hvert spørsmål. 400 og 200 er størrelsen i pixler.
     altText: 'Beskrivelse av bilde'
   },
   {
