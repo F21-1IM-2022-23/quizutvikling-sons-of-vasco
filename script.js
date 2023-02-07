@@ -7,21 +7,21 @@ const questions = [
     ]
   },
   {
-    question: "[Skriv spørsmål 1 her]?",
+    question: "[hvor mange år varte hundreårskrigen]?",
     options: [
-      { text: "moren til vasco", correct: true }, //"true" = riktig svar. Skriv det inn i ulike linjer for å endre hvilken knapp som er riktig
-      { text: "moren til hitler", correct: false }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
-      { text: "Moren til stalin", correct: false } //Siste spørsmålslinje skal ikke ha komma.
+      { text: "116 år", correct: true }, //"true" = riktig svar. Skriv det inn i ulike linjer for å endre hvilken knapp som er riktig
+      { text: "100 år", correct: false }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
+      { text: "143 år", correct: false } //Siste spørsmålslinje skal ikke ha komma.
     ],
-    imageUrl: 'https://unsplash.it/400/200', //bytt ut med en ny bildeaddresse for hvert spørsmål. 400 og 200 er størrelsen i pixler.
+    imageUrl: 'https://en.wikipedia.org/wiki/Hundred_Years%27_War#/media/File:Hundred_years_war_collage.jpg', //bytt ut med en ny bildeaddresse for hvert spørsmål. 400 og 200 er størrelsen i pixler.
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål 2 her]?",
+    question: "[hva heter babyen til elon musk?]?",
     options: [
-      { text: "Alternativ I", correct: true },
-      { text: "Alternativ II", correct: false },
-      { text: "Alternativ III", correct: false }
+      { text: "U-AUNM Æ I", correct: false },
+      { text: "X Æ A-Xii", correct: true },
+      { text: "Æ G NURM", correct: false }
     ],
     imageUrl: 'https://unsplash.it/400/200',
     altText: 'Beskrivelse av bilde'
