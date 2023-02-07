@@ -11,7 +11,7 @@ const questions = [
     options: [
       { text: "moren til vasco", correct: true }, //"true" = riktig svar. Skriv det inn i ulike linjer for å endre hvilken knapp som er riktig
       { text: "moren til hitler", correct: false }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
-      { text: "Alternativ 3", correct: false } //Siste spørsmålslinje skal ikke ha komma.
+      { text: "Moren til stalin", correct: false } //Siste spørsmålslinje skal ikke ha komma.
     ],
     imageUrl: 'https://unsplash.it/400/200', //bytt ut med en ny bildeaddresse for hvert spørsmål. 400 og 200 er størrelsen i pixler.
     altText: 'Beskrivelse av bilde'
