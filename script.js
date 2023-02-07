@@ -27,13 +27,13 @@ const questions = [
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "Bønner?",
+    question: "Hva heter keiseren som herskert over Romerike i år r.284-304 ",
     options: [
-      { text: "Alternativ A", correct: true },
-      { text: "Alternativ B", correct: false },
-      { text: "Alternativ C", correct: false }
+      { text: "Dionysus", correct: false },
+      { text: "Augustus", correct: false }, 
+      { text: "Diocletian", correct: true }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
+    imageUrl: 'iam_os-veHGlVkU4qQ-unsplash (1).jpg',
     altText: 'Beskrivelse av bilde'
   },
   {
